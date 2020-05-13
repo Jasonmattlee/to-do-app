@@ -31,7 +31,7 @@ function onReady() {
       checkbox.type = "checkbox";
 
       const deleteBTN = document.createElement('button');
-      deleteBTN.textContent = "delete";
+      deleteBTN.textContent = "Delete!";
 
       deleteBTN.addEventListener('click', event => {
         toDos = toDos.filter(function(item){
