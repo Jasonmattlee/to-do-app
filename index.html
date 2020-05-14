@@ -13,25 +13,27 @@
 
   </head>
   <body>
-  <main class="mdl-layout__content mdl-grid">
-    <div class="project mdl-cell mdl-card mdl-shadow--4dp">
-      <center>
-        <h1>To Do APP</h1>
-      </center>
-
-      <form id="addToDoForm">
-        <center><label for="newToDoText">New To-Do:</label>
-          <input type="text" id="newToDoText">
-          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="width: 110px; height: 22px; min-width: initial" type="submit">
-            <p style="font-size:12px;">Add a to-do</p>
-          </button>
+    <main class="mdl-layout__content mdl-grid">
+      <div class="mdl-layout-spacer"></div>
+      <div class="project mdl-cell mdl-cell--4-col mdl-shadow--4dp">
+        <center>
+          <h1>To Do APP</h1>
         </center>
-      </form>
 
-      <ul id="toDoList">
-      </ul>
+        <form id="addToDoForm">
+          <center><label for="newToDoText">New To-Do:</label>
+            <input type="text" id="newToDoText">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" style="width: 110px; height: 22px; min-width: initial" type="submit">
+              <p style="font-size:12px;">Add a to-do</p>
+            </button>
+          </center>
+        </form>
 
-      <script src="app.js"></script>
-    </div>
-  </main>
+        <ul id="toDoList">
+        </ul>
+
+        <script src="app.js"></script>
+      </div>
+      <div class="mdl-layout-spacer"></div>
+    </main>
 </body>
